@@ -56,10 +56,12 @@ impl Server {
             let blockchain = self.blockchain.clone();
             thread::spawn(|| match stream {
                 Ok(stream) => {
-                    ...
+                    //TODO:
+                    ()
                 }
                 Err(e) => {
-                    ...
+                    //TODO:
+                    ()
                 }
             });
         }
